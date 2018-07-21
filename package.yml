@@ -1,0 +1,22 @@
+name       : nautilus-folder-icons
+version    : 3.0
+release    : 1
+source     :
+    - https://github.com/bilelmoussaoui/nautilus-folder-icons/archive/3.0.tar.gz : 25fa6f164f50ed84ee6fa6d7a6004cb5190051847a5c3895f41bf1b426ad2565
+license    : GPL-3.0-or-later
+component  : desktop.gnome
+summary    : Change your nautilus directories icons easily!
+description: |
+    Nautilus/Nemo extension that makes changing folders icons easy!
+builddeps  :
+    - pkgconfig(appstream-glib)
+    - meson
+    - vala
+rundeps  :
+    - nautilus-python
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
