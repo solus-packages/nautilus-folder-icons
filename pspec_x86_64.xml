@@ -1,21 +1,22 @@
 <PISI>
     <Source>
         <Name>nautilus-folder-icons</Name>
+        <Homepage>https://github.com/bilelmoussaoui/nautilus-folder-icons</Homepage>
         <Packager>
-            <Name>Devil505</Name>
-            <Email>devil505@tuta.io</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
-        <Summary xml:lang="en">Change your nautilus directories icons easily!</Summary>
-        <Description xml:lang="en">Nautilus/Nemo extension that makes changing folders icons easy!
+        <Summary xml:lang="en">Change your nautilus directories icons easily</Summary>
+        <Description xml:lang="en">An extension for Nautilus that makes changing folders icons easy.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>nautilus-folder-icons</Name>
-        <Summary xml:lang="en">Change your nautilus directories icons easily!</Summary>
-        <Description xml:lang="en">Nautilus/Nemo extension that makes changing folders icons easy!
+        <Summary xml:lang="en">Change your nautilus directories icons easily</Summary>
+        <Description xml:lang="en">An extension for Nautilus that makes changing folders icons easy.
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <Files>
@@ -28,12 +29,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-07-21</Date>
+        <Update release="2">
+            <Date>2021-05-21</Date>
             <Version>3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
-            <Email>devil505@tuta.io</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
