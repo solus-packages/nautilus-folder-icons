@@ -1,6 +1,6 @@
 name       : nautilus-folder-icons
 version    : 3.0
-release    : 2
+release    : 3
 source     :
     - https://github.com/bilelmoussaoui/nautilus-folder-icons/archive/3.0.tar.gz : 25fa6f164f50ed84ee6fa6d7a6004cb5190051847a5c3895f41bf1b426ad2565
 homepage   : https://github.com/bilelmoussaoui/nautilus-folder-icons
