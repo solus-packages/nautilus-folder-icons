@@ -1,6 +1,6 @@
 name       : nautilus-folder-icons
 version    : 3.0
-release    : 3
+release    : 4
 source     :
     - https://github.com/bilelmoussaoui/nautilus-folder-icons/archive/3.0.tar.gz : 25fa6f164f50ed84ee6fa6d7a6004cb5190051847a5c3895f41bf1b426ad2565
 homepage   : https://github.com/bilelmoussaoui/nautilus-folder-icons
@@ -18,6 +18,6 @@ setup      : |
     find . -type f -exec sed -i 's|#!/usr/bin/python2|#!/usr/bin/python3|g' {} \;
     %meson_configure
 build      : |
-    %meson_build
+    %ninja_build
 install    : |
-    %meson_install
+    %ninja_install
